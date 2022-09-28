@@ -9,8 +9,8 @@ public class Main {
         }
 
         int amount = account + translation + bonus;
-        
-        System.out.println("Кол-во бонусных рубоей " + bonus);
+
+        System.out.println("Кол-во бонусных рублей " + bonus);
         System.out.println("Итоговая сумма по счету клиента " + amount);
     }
 }
