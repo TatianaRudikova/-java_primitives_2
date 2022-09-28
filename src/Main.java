@@ -4,12 +4,13 @@ public class Main {
         int translation = 1100;
         int bonus = 0;
 
-        if (translation > 1000){
+        if (translation > 1000) {
             bonus = translation / 100;
         }
 
         int amount = account + translation + bonus;
-
+        
+        System.out.println("Кол-во бонусных рубоей " + bonus);
         System.out.println("Итоговая сумма по счету клиента " + amount);
     }
 }
